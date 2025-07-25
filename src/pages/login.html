@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="A Login Page" />
+        <meta name="robots" content="index, follow" />
+        <title>Login Page</title>
+        <link
+            rel="stylesheet"
+            href="../styles/login_page.css"
+            type="text/css"
+            media="all"
+        />
+    </head>
+    <body>
+        <h1 class="login_heading">Login Here</h1>
+        <form action="../login.php" method="post" class="login_form">
+            <input
+                type="text"
+                name="username"
+                id="username"
+                required="true"
+                placeholder="Enter your username"
+            />
+            <br />
+            <br />
+            <input
+                type="password"
+                name="password"
+                id="password"
+                required="true"
+                placeholder="Enter your password"
+            />
+            <br />
+            <br />
+            <input type="checkbox" name="remember" id="remember" /> Remember me
+            <br />
+            <br />
+            <button class="login_button" type="submit">Login</button>
+        </form>
+        <a href="./signup.html">Don't have an account! sign up</a>
+    </body>
+</html>

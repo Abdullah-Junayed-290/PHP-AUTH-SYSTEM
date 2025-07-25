@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="A signup Page" />
+        <meta name="robots" content="index, follow" />
+        <title>SignUp Page</title>
+        <link
+            rel="stylesheet"
+            href="../styles/signup_page.css"
+            type="text/css"
+            media="all"
+        />
+    </head>
+    <body>
+        <h1 class="signup_heading">Sign Up Here</h1>
+        <form action="../signup.php" method="post" class="signup_form">
+            <input
+                type="text"
+                name="username"
+                id="username"
+                required="true"
+                placeholder="Enter your username"
+            />
+            <br />
+            <br />
+            <input
+                type="password"
+                name="password"
+                id="password"
+                required="true"
+                placeholder="Enter your password"
+            />
+            <br />
+            <br />
+            <button class="signup_button" type="submit">Sign Up</button>
+        </form>
+        <a href="./login.html">Early have an account, Log in</a>
+    </body>
+</html>
